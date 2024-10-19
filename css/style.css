@@ -274,10 +274,10 @@ button.savedbtn img {
   display: flex;
   justify-content: space-between;
 }
-.searchbar {
+/* .searchbar {
   width: 100%;
   margin-right: 15px;
-}
+} */
 }
 
 @media (max-width: 991px) {
