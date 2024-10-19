@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Houzeo</title>
+   <meta name="description" content="Collect compliments in influencer-approved festive styles!">
+
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/animate.min.css">
+   <link rel="stylesheet" href="css/nice-select.css">
+   
+   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <!-- Header section -->
+   <section>
+      <div class="container-fluid">
+         <header>
+            <nav>
+               <div class="main-header">
+                  <div class="logo">
+                     <a href="index.html"> <img src="img/logo.png" alt="Logo"></a>
+                  </div>
+                  <div class="nav-links">
+                     <ul>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">How Houzeo works</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Buy</a></li>
+                        <li><a href="#">Sell</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Resourse</a></li>
+                        <li><a href="#">Sign In</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </header>
+      </div>
+   </section>
+
+
+   <!-- filter bar section -->
+   <section class="mt-40 mb-40">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-4 col-md-4">
+               <div class="searchbar">
+                  <input type="text" name="search" placeholder="Search Property" autocomplete="off">
+                  <span class="clear-button" onclick="clearSearch()"><img src="img/close.svg"></span>
+                  <button class="search-button"><i class="fa fa-search"></i></button>
+               </div>
+            </div>
+            <div class="col-lg-8 col-md-8">
+               <div class="filters">
+
+                  <div class="custom-select">
+                     <select>
+                        <option value="" disabled selected>For Sale</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                     </select>
+                  </div>
+                  <div class="custom-select">
+                     <select>
+                        <option value="" disabled selected>Price</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                     </select>
+                  </div>
+                  <div class="custom-select">
+                     <select>
+                        <option value="" disabled selected>Beds & Bath</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                     </select>
+                  </div>
+                  <div class="custom-select">
+                     <select>
+                        <option value="" disabled selected>Property Type</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                     </select>
+                  </div>
+
+                  <div class="custom-filtericon">
+                     <button class="filterbtn"><img src="img/filter.png"> Filter </button>
+                  </div>
+
+                  <div class="custom-saved">
+                     <button class="savedbtn"><img src="img/saved.png"> Saved </button>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </section>
+
+
+
+
+
+   <!-- map property section -->
+   <section class="mt-40 mb-40">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-6 col-md-6">
+               <div class="mapsection">
+                  <!-- <img src="img/map.jpg" width="100%"> -->
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15818636.395427654!2d-104.81320875665558!3d41.72079202235022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1729333650442!5m2!1sen!2sin" width="100%" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+               <div class="property-list-area">
+                  <div class="proheading">
+                     <h2>Austin, TX real estate & homes for sale</h2>
+                  </div>
+                  <div class="profilter-area">
+                     <div class="count">
+                        <p>2,010 Homes</p>
+                     </div>
+                     <div class="sortby">
+                        <span>Sort By:</span>
+                        <select class="sortby">
+                           <option value="" disabled selected> New Listing</option>
+                           <option value="New Listing"> New Listing</option>
+                           <option value="Low To HIgh">Low To HIgh</option>
+                           <option value="High To Low">High To Low</option>
+                        </select>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="propertycard-section">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6">
+                        <div class="propertycard">
+                           <div class="img-slide-box2 wow fadeInLeft" data-wow-delay=".3s">
+                              <div class="cardimg swiper-container">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-1.png" style="width:100%; ">
+                                       </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-2.png" style="width:100%;">
+                                       </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-3.png" style="width:100%;">
+                                       </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-4.png" style="width:100%;">
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                  <!-- <div class="swiper-button-prev testimonial-btn"></div>
+                                 <div class="swiper-button-next testimonial-btn"></div> -->
+
+                                 <!-- Overlay Elements -->
+                                 <div class="overlay-content">
+                                    <div class="top-left">
+                                       <span class="timestamp">6 days on Houzeo</span>
+                                    </div>
+                                    <div class="top-right">
+                                       <img src="img/heart.svg" class="heart-icon">
+                                    </div>
+                                    <div class="bottom-right">
+                                       <img src="img/p-logo.png" class="logo-icon">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="property-info">
+                              <div class="firstinfo">
+                                 <span class="hfs"><img src="img/circle.png"> House for sale</span>
+                                 <span class="views"><img src="img/eye.png"> 2.3K</span>
+                              </div>
+               
+                              <div class="price-info">
+                                 <p class="price">$3,349,000</p>
+                                 <p class="details"><span class="blue">4 </span>Beds <span class="blue">3 </span>Baths <span
+                                       class="blue">998 </span>sqft</p>
+                              </div>
+               
+                              <div class="address-info">
+                                 <p class="address">2856 Meadow Park Ave, <span class="grey">Henderson, NV 89052</span></p>
+                              </div>
+               
+                              <div class="distribute-info">
+                                 <p class="distribute">Nashville (Real Tracs Mid) MLS-TN as distributed by MLS GRID</p>
+                              </div>
+               
+               
+               
+                           </div>
+                        </div>
+                     </div>
+               
+                     <div class="col-lg-6 col-md-6">
+                        <div class="propertycard">
+                           <div class="img-slide-box2 wow fadeInLeft" data-wow-delay=".3s">
+                              <div class="cardimg swiper-container">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-2.png" style="width:100%; ">
+                                       </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-3.png" style="width:100%;">
+                                       </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-4.png" style="width:100%;">
+                                       </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-1.png" style="width:100%;">
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                 <!-- Overlay Elements -->
+                                 <div class="overlay-content">
+                                    <div class="top-left">
+                                       <span class="timestamp">12 days on Houzeo</span>
+                                    </div>
+                                    <div class="top-right">
+                                       <img src="img/heart.svg" class="heart-icon">
+                                    </div>
+                                    <!-- <div class="bottom-right">
+                                       <img src="img/p-logo.png" class="logo-icon">
+                                    </div> -->
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="property-info">
+                              <div class="firstinfo">
+                                 <span class="hfs"><img src="img/circle.png"> Condo For Sale</span>
+                                 <span class="views"><img src="img/eye.png"> 2.3K</span>
+                              </div>
+               
+                              <div class="price-info">
+                                 <p class="price">$3,349,000</p>
+                                 <p class="details"><span class="blue">4 </span>Beds <span class="blue">3 </span>Baths <span
+                                       class="blue">998 </span>sqft</p>
+                              </div>
+               
+                              <div class="address-info">
+                                 <p class="address">2856 Meadow Park Ave, <span class="grey">Henderson, NV 89052</span></p>
+                              </div>
+               
+                              <div class="distribute-info">
+                                 <p class="distribute">Sotheby's International Realty</p>
+                              </div>
+               
+               
+               
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-6 col-md-6">
+                        <div class="propertycard">
+                           <div class="img-slide-box2 wow fadeInLeft" data-wow-delay=".3s">
+                              <div class="cardimg swiper-container">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-3.png" style="width:100%; ">
+                                       </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-2.png" style="width:100%;">
+                                       </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-4.png" style="width:100%;">
+                                       </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-1.png" style="width:100%;">
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                  <!-- <div class="swiper-button-prev testimonial-btn"></div>
+                                 <div class="swiper-button-next testimonial-btn"></div> -->
+
+                                 <!-- Overlay Elements -->
+                                 <div class="overlay-content">
+                                    <!-- <div class="top-left">
+                                       <span class="timestamp">6 days on Houzeo</span>
+                                    </div> -->
+                                    <div class="top-right">
+                                       <img src="img/heart.svg" class="heart-icon">
+                                    </div>
+                                    <div class="bottom-right">
+                                       <img src="img/p-logo.png" class="logo-icon">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="property-info">
+                              <div class="firstinfo">
+                                 <span class="hfs"><img src="img/circle.png">Multi-family home For Sale</span>
+                                 <span class="views"><img src="img/eye.png"> 2.3K</span>
+                              </div>
+               
+                              <div class="price-info">
+                                 <p class="price">$3,349,000</p>
+                                 <p class="details"><span class="blue">4 </span>Beds <span class="blue">3 </span>Baths <span
+                                       class="blue">998 </span>sqft</p>
+                              </div>
+               
+                              <div class="address-info">
+                                 <p class="address">2856 Meadow Park Ave, <span class="grey">Henderson, NV 89052</span></p>
+                              </div>
+               
+                              <div class="distribute-info">
+                                 <p class="distribute">Nashville (Real Tracs Mid) MLS-TN as distributed by MLS GRID</p>
+                              </div>
+               
+               
+               
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-6 col-md-6">
+                        <div class="propertycard">
+                           <div class="img-slide-box2 wow fadeInLeft" data-wow-delay=".3s">
+                              <div class="cardimg swiper-container">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-4.png" style="width:100%; ">
+                                       </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-2.png" style="width:100%;">
+                                       </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-3.png" style="width:100%;">
+                                       </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <div class="single-test">
+                                          <img src="img/property/slide-1.png" style="width:100%;">
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                  <!-- <div class="swiper-button-prev testimonial-btn"></div>
+                                 <div class="swiper-button-next testimonial-btn"></div> -->
+
+                                 <!-- Overlay Elements -->
+                                 <div class="overlay-content">
+                                    <div class="top-left">
+                                       <span class="timestamp">10 days on Houzeo</span>
+                                    </div>
+                                    <div class="top-right">
+                                       <img src="img/heart.svg" class="heart-icon">
+                                    </div>
+                                    <div class="bottom-right">
+                                       <img src="img/p-logo.png" class="logo-icon">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="property-info">
+                              <div class="firstinfo">
+                                 <span class="hfs"><img src="img/circle.png"> House for sale</span>
+                                 <span class="views"><img src="img/eye.png"> 2.3K</span>
+                              </div>
+               
+                              <div class="price-info">
+                                 <p class="price">$3,349,000</p>
+                                 <p class="details"><span class="blue">4 </span>Beds <span class="blue">3 </span>Baths <span
+                                       class="blue">998 </span>sqft</p>
+                              </div>
+               
+                              <div class="address-info">
+                                 <p class="address">2856 Meadow Park Ave, <span class="grey">Henderson, NV 89052</span></p>
+                              </div>
+               
+                              <div class="distribute-info">
+                                 <p class="distribute">Nashville (Real Tracs Mid) MLS-TN as distributed by MLS GRID</p>
+                              </div>
+               
+               
+               
+                           </div>
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="js/jquery-3.6.0.min.js"></script>
+
+   <script src="js/jquery.nice-select.min.js"></script>
+
+   <script src="js/swiper-bundle.min.js"></script>
+
+
+   <script>
+
+      function clearSearch() {
+         const input = document.querySelector('.searchbar input');
+         input.value = ''; 
+         input.focus(); 
+         document.querySelector('.clear-button').style.display = 'none'; 
+      }
+
+      document.querySelector('.searchbar input').addEventListener('input', function () {
+         const clearButton = document.querySelector('.clear-button');
+         clearButton.style.display = this.value ? 'inline' : 'none'; 
+      });
+
+   </script>
+
+
+<script>
+
+const swiper2 = new Swiper(".cardimg", {
+
+    slidePereView: 1,
+    loop: true,
+    autoplay: true,
+    speed: 400,
+    pagination: {
+      el: '.slider__pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+</body>
+
+</html>
