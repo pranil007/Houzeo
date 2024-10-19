@@ -278,6 +278,10 @@ button.savedbtn img {
   width: 100%;
   margin-right: 15px;
 } */
+
+  .filtermobile img {
+    width: 100%;
+}
 }
 
 @media (max-width: 991px) {
