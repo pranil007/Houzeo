@@ -641,7 +641,7 @@ span.timestamp {
 color: #fff;
 }
 
-@media (min-width: 992) {
+@media (min-width: 991px) {
  
   .map-button {
       display: none; 
